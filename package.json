@@ -1,0 +1,49 @@
+{
+  "name": "config-property-stamp",
+  "version": "1.0.0",
+  "description": "A stamp that uses config to read configuration into a stamp property.",
+  "main": "lib/configPropertyStamp.js",
+  "scripts": {
+    "test": "istanbul cover --print both nodeunit ./ test",
+    "lint": "eslint .",
+    "coverage": "istanbul check-coverage --statements 95 --lines 95 --branches 95 --functions 100",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thebruce/config-property-stamp.git"
+  },
+  "keywords": [
+    "stampit",
+    "config",
+    "stamps"
+  ],
+  "author": "David Diers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebruce/config-property-stamp/issues"
+  },
+  "homepage": "https://github.com/thebruce/config-property-stamp#readme",
+  "dependencies": {
+    "config": "^1.21.0",
+    "stampit": "^3.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-find-rules": "^1.13.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "ghooks": "^1.0.1",
+    "istanbul": "^0.4.2",
+    "nodeunit": "^0.10.2",
+    "npm-run-all": "^3.1.1",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
+  }
+}
