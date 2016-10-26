@@ -1,6 +1,5 @@
 {
   "name": "config-property-stamp",
-  "version": "1.0.0",
   "description": "A stamp that uses config to read configuration into a stamp property.",
   "main": "lib/configPropertyStamp.js",
   "scripts": {
@@ -12,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/thebruce/config-property-stamp.git"
+    "url": "https://github.com/thebruce/config-property-stamp.git"
   },
   "keywords": [
     "stampit",
