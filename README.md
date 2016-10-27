@@ -4,7 +4,7 @@
 
 # Config Property Stamp
 
-A stamp (a composeable factory function) for use with [stamp-it](https://www.npmjs.com/package/stampit) that creates a deep property called config storing information from [config](https://www.npmjs.com/package/config) with its' cascading configuration capabilities or an override with an arbitary configuration file you provide.
+A stamp (a composeable factory function) for use with [stamp-it](https://www.npmjs.com/package/stampit) that creates an immutable deep property called config storing information from [config](https://www.npmjs.com/package/config) with its' cascading configuration capabilities or an override with an arbitary configuration file you provide.
 
 By itself you aren't gaining much, used in combination with other stamps you gain the composeable power to add the consistent config interface of the config module in an expected way.
 
