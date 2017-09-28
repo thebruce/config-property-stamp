@@ -29,7 +29,7 @@
     "stampit": "^3.0.4"
   },
   "devDependencies": {
-    "coveralls": "^2.11.14",
+    "coveralls": "^2.13.3",
     "eslint": "^3.3.1",
     "eslint-config-airbnb-base": "^9.0.0",
     "eslint-find-rules": "^1.13.0",
