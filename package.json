@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/thebruce/config-property-stamp#readme",
   "dependencies": {
-    "config": "^1.21.0",
+    "config": "^3.0.0",
     "stampit": "^3.0.4"
   },
   "devDependencies": {
